@@ -8,7 +8,8 @@ For example, given nums = [0, 1, 0, 3, 12], after calling your function, nums sh
 Note:
 You must do this in-place without making a copy of the array.
 Minimize the total number of operations.
-'''python
+
+'''
 class Solution(object):
     def moveZeroes(self, nums):
         """
