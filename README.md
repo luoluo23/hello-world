@@ -9,13 +9,10 @@ Note:
 You must do this in-place without making a copy of the array.
 Minimize the total number of operations.
 
-'''
+'''python
 class Solution(object):
     def moveZeroes(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: void Do not return anything, modify nums in-place instead.
-        """
+
         pos = 0
         for i in xrange(len(nums)):
             if nums[i]:
