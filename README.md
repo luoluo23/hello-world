@@ -39,7 +39,7 @@ s = "loveleetcode",
 return 2.
 Note: You may assume the string contain only lowercase letters.
 
-```
+```python
 from collections import defaultdict
 
 class Solution(object):
